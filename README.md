@@ -137,3 +137,93 @@ python scripts/train_archaeology_rf_multimodal.py
 Ce script concatene les caracteristiques de l'orthophoto et du LiDAR, puis
 entraine une Random Forest. On compare ensuite ce score avec le modele image
 seule pour evaluer l'apport du LiDAR.
+
+## Segmentation du trait de cote
+
+Place des images cotieres dans :
+
+```text
+data/coastline/raw/
+```
+
+Puis lance :
+
+```bash
+python scripts/segment_coastline.py
+```
+
+Le script cree dans `data/coastline/processed/` :
+
+- un score d'eau ;
+- un masque eau/terre ;
+- un masque du trait de cote ;
+- une image avec le trait de cote superpose en rouge.
+
+Cette premiere methode est une baseline classique RGB. Pour un pipeline
+scientifique plus robuste, on ajoutera ensuite des donnees georeferencees,
+des masques eau/terre de reference et des modeles de segmentation comme U-Net.
+
+## Verification des exports QGIS
+
+Pour verifier les exports RGB/LiDAR avant entrainement :
+
+```bash
+python scripts/audit_exported_dataset.py
+```
+
+Le script verifie :
+
+- nombre de patchs par classe ;
+- nombre de sites detectes ;
+- paires RGB/LiDAR manquantes ;
+- tailles RGB/LiDAR incoherentes ;
+- fichiers world `.pgw` manquants ;
+- noms de fichiers suspects.
+
+Il genere aussi :
+
+```text
+data/exports_qgis/dataset_audit.csv
+```
+
+## Modele ResNet-18 RGB
+
+Pour evaluer un CNN preentraine sur les exports QGIS :
+
+```bash
+python scripts/train_resnet18_rgb.py
+```
+
+Par defaut, le script :
+
+- lit `data/exports_qgis/dataset_audit.csv` ;
+- exclut les vues `tres_large` ;
+- utilise ResNet-18 preentraine sur ImageNet ;
+- entraine seulement la derniere couche de classification ;
+- evalue avec un split leave-one-site-out.
+
+Pour entrainer aussi le backbone complet :
+
+```bash
+python scripts/train_resnet18_rgb.py --fine-tune
+```
+
+Sur CPU, la version la plus rapide consiste a utiliser ResNet-18 comme
+extracteur de representations preentrainees :
+
+```bash
+python scripts/evaluate_resnet18_embeddings.py
+```
+
+Pour evaluer les images LiDAR seules avec la meme logique :
+
+```bash
+python scripts/evaluate_resnet18_lidar_embeddings.py
+```
+
+Pour comparer directement RGB seul, LiDAR seul et fusion RGB+LiDAR sur les
+memes splits :
+
+```bash
+python scripts/compare_resnet18_modalities.py
+```

@@ -6,9 +6,16 @@ import numpy as np
 from PIL import Image
 
 
-def extract_image_features(path: Path, thumbnail_size: int = 16) -> np.ndarray:
+def extract_image_features(
+    path: Path,
+    thumbnail_size: int = 16,
+    max_side: int | None = None,
+) -> np.ndarray:
     """Extract simple image-level features for classical ML baselines."""
     image = Image.open(path).convert("RGB")
+    if max_side is not None:
+        image.thumbnail((max_side, max_side), Image.Resampling.BILINEAR)
+
     rgb = np.asarray(image, dtype=np.float32) / 255.0
     gray = np.asarray(image.convert("L"), dtype=np.float32) / 255.0
 
@@ -56,4 +63,3 @@ def _thumbnail(gray: np.ndarray, thumbnail_size: int) -> np.ndarray:
     image = Image.fromarray(np.clip(gray * 255, 0, 255).astype(np.uint8))
     image = image.resize((thumbnail_size, thumbnail_size), Image.Resampling.BILINEAR)
     return np.asarray(image, dtype=np.float32).reshape(-1) / 255.0
-
