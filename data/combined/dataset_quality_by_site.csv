@@ -1,0 +1,16 @@
+site_id,usable_total,archeologique_total,non_archeologique_total,patch_count,large_count,negative_count,unusable_count,missing_patch_count,missing_large_count,missing_negative_count,recommendations,source_breakdown,file_issues
+site01,20,8,12,6,2,12,0,0,0,0,ok,exports_qgis:12;exports_qgis_auto:8,
+site02,19,7,12,5,2,12,0,0,0,0,ok,exports_qgis:12;exports_qgis_auto:7,
+site03,18,6,12,4,2,12,0,0,0,0,ok,exports_qgis:10;exports_qgis_auto:8,
+site04,21,9,12,7,2,12,0,0,0,0,ok,exports_qgis:13;exports_qgis_auto:8,
+site05,20,9,11,7,2,11,0,0,0,0,ok,exports_qgis:12;exports_qgis_auto:8,
+site06,18,6,12,4,2,12,0,0,0,0,ok,exports_qgis:10;exports_qgis_auto:8,
+site07,13,5,8,3,2,8,0,1,0,0,add_1_archaeological_patch,exports_qgis:5;exports_qgis_auto:8,
+site08,14,5,9,3,2,9,0,1,0,0,add_1_archaeological_patch,exports_qgis:6;exports_qgis_auto:8,
+site09,12,6,6,5,1,6,0,0,0,2,add_2_negative,exports_qgis:4;exports_qgis_auto:8,
+site10,13,5,8,3,2,8,0,1,0,0,add_1_archaeological_patch,exports_qgis:5;exports_qgis_auto:8,
+site11,11,5,6,3,2,6,0,1,0,2,add_1_archaeological_patch;add_2_negative,exports_qgis:3;exports_qgis_auto:8,
+site12,13,5,8,3,2,8,0,1,0,0,add_1_archaeological_patch,exports_qgis:5;exports_qgis_auto:8,
+site13,12,5,7,3,2,7,0,1,0,1,add_1_archaeological_patch;add_1_negative,exports_qgis:4;exports_qgis_auto:8,
+site14,13,6,7,4,2,7,0,0,0,1,add_1_negative,exports_qgis:5;exports_qgis_auto:8,
+site15,12,5,7,4,1,7,2,0,0,1,add_1_negative;fix_2_file_issue,exports_qgis:4;exports_qgis_auto:8,site15_neg01=size_mismatch;site15_neg02=size_mismatch

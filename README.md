@@ -227,3 +227,52 @@ memes splits :
 ```bash
 python scripts/compare_resnet18_modalities.py
 ```
+
+## Generation automatique de patchs positifs
+
+Si tu as une couche QGIS contenant les sites connus, tu peux generer
+automatiquement les polygones `patch`, `large` et `tres_large` :
+
+```bash
+python scripts/generate_positive_patch_polygons.py --sites data/exports_qgis/sites_romains.gpkg --site-id-field site_id --target-crs EPSG:2154
+```
+
+Le script cree par defaut :
+
+```text
+data/exports_qgis/positive_patch_polygons.gpkg
+```
+
+Tu peux ensuite charger cette couche dans QGIS et l'utiliser comme couche de
+couverture de l'Atlas pour exporter les images RGB puis LiDAR.
+
+Pour connaitre le nom des couches et des champs d'un GeoPackage :
+
+```bash
+python scripts/list_vector_layers.py data/exports_qgis/sites_romains.gpkg
+```
+
+Pour generer des candidats negatifs autour des sites directement dans QGIS,
+execute le script PyQGIS :
+
+```text
+qgis_scripts/generate_negative_patch_polygons_qgis.py
+```
+
+Les candidats generes doivent etre verifies visuellement dans QGIS avant export.
+
+## Combiner plusieurs exports
+
+Pour prendre en compte les exports manuels et les exports automatiques :
+
+```bash
+python scripts/combine_dataset_audits.py
+```
+
+Le manifeste combine est ecrit ici :
+
+```text
+data/combined/dataset_audit.csv
+```
+
+Il peut ensuite etre donne aux scripts d'evaluation avec `--audit-csv`.

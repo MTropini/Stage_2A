@@ -1,76 +1,119 @@
 patch_id,site_id,patch_type,label,rgb_path,lidar_path,rgb_width,rgb_height,lidar_width,lidar_height,has_rgb_world_file,has_lidar_world_file,status
-site01_large,site01,large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_large.png,3507,2480,3507,2480,True,True,ok
-site01_neg02,site01,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_neg02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_neg02.png,3507,2480,3507,2480,True,True,ok
-site01_neg03,site01,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_neg03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_neg03.png,3507,2480,3507,2480,True,True,ok
-site01_neg04,site01,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_neg04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_neg04.png,3507,2480,3507,2480,True,True,ok
-site01_neg05,site01,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_neg05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_neg05.png,3507,2480,3507,2480,True,True,ok
-site01_neg06,site01,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_neg06.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_neg06.png,3507,2480,3507,2480,True,True,ok
-site01_neg07,site01,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_neg07.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_neg07.png,3507,2480,3507,2480,True,True,ok
-site01_patch01,site01,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_patch01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_patch01.png,3507,2480,3507,2480,True,True,ok
-site01_patch02,site01,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_patch02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_patch02.png,3507,2480,3507,2480,True,True,ok
-site01_patch03,site01,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_patch03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_patch03.png,3507,2480,3507,2480,True,True,ok
-site01_patch04,site01,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_patch04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_patch04.png,3507,2480,3507,2480,True,True,ok
-site01_patch05,site01,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_patch05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_patch05.png,3507,2480,3507,2480,True,True,ok
-site01_tres_large,site01,tres_large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site01_tres_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site01_tres_large.png,3507,2480,3507,2480,True,True,ok
-site02_large,site02,large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_large.png,3507,2480,3507,2480,True,True,ok
-site02_neg01,site02,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_neg01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_neg01.png,3507,2480,3507,2480,True,True,ok
-site02_neg02,site02,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_neg02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_neg02.png,3507,2480,3507,2480,True,True,ok
-site02_neg03,site02,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_neg03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_neg03.png,3507,2480,3507,2480,True,True,ok
-site02_neg04,site02,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_neg04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_neg04.png,3507,2480,3507,2480,True,True,ok
-site02_neg05,site02,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_neg05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_neg05.png,3507,2480,3507,2480,True,True,ok
-site02_neg06,site02,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_neg06.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_neg06.png,3507,2480,3507,2480,True,True,ok
-site02_neg07,site02,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_neg07.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_neg07.png,3507,2480,3507,2480,True,True,ok
-site02_patch01,site02,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_patch01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_patch01.png,3507,2480,3507,2480,True,True,ok
-site02_patch02,site02,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_patch02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_patch02.png,3507,2480,3507,2480,True,True,ok
-site02_patch03,site02,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_patch03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_patch03.png,3507,2480,3507,2480,True,True,ok
-site02_patch04,site02,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_patch04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_patch04.png,3507,2480,3507,2480,True,True,ok
-site02_tres_large,site02,tres_large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site02_tres_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site02_tres_large.png,3507,2480,3507,2480,True,True,ok
-site03_large,site03,large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_large.png,3507,2480,3507,2480,True,True,ok
-site03_neg01,site03,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_neg01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_neg01.png,3507,2480,3507,2480,True,True,ok
-site03_neg02,site03,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_neg02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_neg02.png,3507,2480,3507,2480,True,True,ok
-site03_neg03,site03,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_neg03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_neg03.png,3507,2480,3507,2480,True,True,ok
-site03_neg04,site03,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_neg04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_neg04.png,3507,2480,3507,2480,True,True,ok
-site03_neg05,site03,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_neg05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_neg05.png,3507,2480,3507,2480,True,True,ok
-site03_neg06,site03,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_neg06.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_neg06.png,3507,2480,3507,2480,True,True,ok
-site03_patch01,site03,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_patch01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_patch01.png,3507,2480,3507,2480,True,True,ok
-site03_patch03,site03,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_patch03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_patch03.png,3507,2480,3507,2480,True,True,ok
-site03_patch04,site03,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_patch04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_patch04.png,3507,2480,3507,2480,True,True,ok
-site03_tres_large,site03,tres_large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site03_tres_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site03_tres_large.png,3507,2480,3507,2480,True,True,ok
-site04_large,site04,large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_large.png,3507,2480,3507,2480,True,True,ok
-site04_neg01,site04,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_neg01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_neg01.png,3507,2480,3507,2480,True,True,ok
-site04_neg02,site04,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_neg02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_neg02.png,3507,2480,3507,2480,True,True,ok
-site04_neg03,site04,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_neg03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_neg03.png,3507,2480,3507,2480,True,True,ok
-site04_neg04,site04,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_neg04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_neg04.png,3507,2480,3507,2480,True,True,ok
-site04_neg05,site04,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_neg05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_neg05.png,3507,2480,3507,2480,True,True,ok
-site04_neg06,site04,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_neg06.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_neg06.png,3507,2480,3507,2480,True,True,ok
-site04_patch01,site04,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_patch01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_patch01.png,3507,2480,3507,2480,True,True,ok
-site04_patch02,site04,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_patch02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_patch02.png,3507,2480,3507,2480,True,True,ok
-site04_patch03,site04,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_patch03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_patch03.png,3507,2480,3507,2480,True,True,ok
-site04_patch04,site04,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_patch04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_patch04.png,3507,2480,3507,2480,True,True,ok
-site04_patch05,site04,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_patch05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_patch05.png,3507,2480,3507,2480,True,True,ok
-site04_patch06,site04,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_patch06.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_patch06.png,3507,2480,3507,2480,True,True,ok
-site04_tres_large,site04,tres_large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site04_tres_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site04_tres_large.png,3507,2480,3507,2480,True,True,ok
-site05_large,site05,large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_large.png,3507,2480,3507,2480,True,True,ok
-site05_neg01,site05,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_neg01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_neg01.png,3507,2480,3507,2480,True,True,ok
-site05_neg02,site05,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_neg02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_neg02.png,3507,2480,3507,2480,True,True,ok
-site05_neg03,site05,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_neg03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_neg03.png,3507,2480,3507,2480,True,True,ok
-site05_neg04,site05,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_neg04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_neg04.png,3507,2480,3507,2480,True,True,ok
-site05_neg05,site05,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_neg05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_neg05.png,3507,2480,3507,2480,True,True,ok
-site05_patch01,site05,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_patch01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_patch01.png,3507,2480,3507,2480,True,True,ok
-site05_patch02,site05,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_patch02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_patch02.png,3507,2480,3507,2480,True,True,ok
-site05_patch03,site05,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_patch03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_patch03.png,3507,2480,3507,2480,True,True,ok
-site05_patch04,site05,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_patch04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_patch04.png,3507,2480,3507,2480,True,True,ok
-site05_patch05,site05,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_patch05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_patch05.png,3507,2480,3507,2480,True,True,ok
-site05_patch06,site05,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_patch06.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_patch06.png,3507,2480,3507,2480,True,True,ok
-site05_tres_large,site05,tres_large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site05_tres_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site05_tres_large.png,3507,2480,3507,2480,True,True,ok
-site06_large,site06,large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_large.png,3507,2480,3507,2480,True,True,ok
-site06_neg01,site06,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_neg01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_neg01.png,3507,2480,3507,2480,True,True,ok
-site06_neg02,site06,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_neg02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_neg02.png,3507,2480,3507,2480,True,True,ok
-site06_neg03,site06,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_neg03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_neg03.png,3507,2480,3507,2480,True,True,ok
-site06_neg04,site06,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_neg04.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_neg04.png,3507,2480,3507,2480,True,True,ok
-site06_neg05,site06,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_neg05.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_neg05.png,3507,2480,3507,2480,True,True,ok
-site06_neg06,site06,neg,non_archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_neg06.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_neg06.png,3507,2480,3507,2480,True,True,ok
-site06_patch01,site06,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_patch01.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_patch01.png,3507,2480,3507,2480,True,True,ok
-site06_patch02,site06,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_patch02.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_patch02.png,3507,2480,3507,2480,True,True,ok
-site06_patch03,site06,patch,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_patch03.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_patch03.png,3507,2480,3507,2480,True,True,ok
-site06_tres_large,site06,tres_large,archeologique,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\rgb\site06_tres_large.png,C:\Users\Mathieu\Documents\New project\Stage_2A\data\exports_qgis\lidar\site06_tres_large.png,3507,2480,3507,2480,True,True,ok
+site01_large,site01,large,archeologique,data\exports_qgis\rgb\site01_large.png,data\exports_qgis\lidar\site01_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_neg02,site01,neg,non_archeologique,data\exports_qgis\rgb\site01_neg02.png,data\exports_qgis\lidar\site01_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_neg03,site01,neg,non_archeologique,data\exports_qgis\rgb\site01_neg03.png,data\exports_qgis\lidar\site01_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_neg04,site01,neg,non_archeologique,data\exports_qgis\rgb\site01_neg04.png,data\exports_qgis\lidar\site01_neg04_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_neg05,site01,neg,non_archeologique,data\exports_qgis\rgb\site01_neg05.png,data\exports_qgis\lidar\site01_neg05_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_neg06,site01,neg,non_archeologique,data\exports_qgis\rgb\site01_neg06.png,data\exports_qgis\lidar\site01_neg06_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_neg07,site01,neg,non_archeologique,data\exports_qgis\rgb\site01_neg07.png,data\exports_qgis\lidar\site01_neg07_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_patch01,site01,patch,archeologique,data\exports_qgis\rgb\site01_patch01.png,data\exports_qgis\lidar\site01_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_patch02,site01,patch,archeologique,data\exports_qgis\rgb\site01_patch02.png,data\exports_qgis\lidar\site01_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_patch03,site01,patch,archeologique,data\exports_qgis\rgb\site01_patch03.png,data\exports_qgis\lidar\site01_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_patch04,site01,patch,archeologique,data\exports_qgis\rgb\site01_patch04.png,data\exports_qgis\lidar\site01_patch04_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_patch05,site01,patch,archeologique,data\exports_qgis\rgb\site01_patch05.png,data\exports_qgis\lidar\site01_patch05_lidar.png,3507,2480,3507,2480,True,True,ok
+site01_tres_large,site01,tres_large,archeologique,data\exports_qgis\rgb\site01_tres_large.png,data\exports_qgis\lidar\site01_tres_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_large,site02,large,archeologique,data\exports_qgis\rgb\site02_large.png,data\exports_qgis\lidar\site02_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_neg01,site02,neg,non_archeologique,data\exports_qgis\rgb\site02_neg01.png,data\exports_qgis\lidar\site02_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_neg02,site02,neg,non_archeologique,data\exports_qgis\rgb\site02_neg02.png,data\exports_qgis\lidar\site02_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_neg03,site02,neg,non_archeologique,data\exports_qgis\rgb\site02_neg03.png,data\exports_qgis\lidar\site02_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_neg04,site02,neg,non_archeologique,data\exports_qgis\rgb\site02_neg04.png,data\exports_qgis\lidar\site02_neg04_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_neg05,site02,neg,non_archeologique,data\exports_qgis\rgb\site02_neg05.png,data\exports_qgis\lidar\site02_neg05_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_neg06,site02,neg,non_archeologique,data\exports_qgis\rgb\site02_neg06.png,data\exports_qgis\lidar\site02_neg06_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_neg07,site02,neg,non_archeologique,data\exports_qgis\rgb\site02_neg07.png,data\exports_qgis\lidar\site02_neg07_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_patch01,site02,patch,archeologique,data\exports_qgis\rgb\site02_patch01.png,data\exports_qgis\lidar\site02_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_patch02,site02,patch,archeologique,data\exports_qgis\rgb\site02_patch02.png,data\exports_qgis\lidar\site02_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_patch03,site02,patch,archeologique,data\exports_qgis\rgb\site02_patch03.png,data\exports_qgis\lidar\site02_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_patch04,site02,patch,archeologique,data\exports_qgis\rgb\site02_patch04.png,data\exports_qgis\lidar\site02_patch04_lidar.png,3507,2480,3507,2480,True,True,ok
+site02_tres_large,site02,tres_large,archeologique,data\exports_qgis\rgb\site02_tres_large.png,data\exports_qgis\lidar\site02_tres_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_large,site03,large,archeologique,data\exports_qgis\rgb\site03_large.png,data\exports_qgis\lidar\site03_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_neg01,site03,neg,non_archeologique,data\exports_qgis\rgb\site03_neg01.png,data\exports_qgis\lidar\site03_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_neg02,site03,neg,non_archeologique,data\exports_qgis\rgb\site03_neg02.png,data\exports_qgis\lidar\site03_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_neg03,site03,neg,non_archeologique,data\exports_qgis\rgb\site03_neg03.png,data\exports_qgis\lidar\site03_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_neg04,site03,neg,non_archeologique,data\exports_qgis\rgb\site03_neg04.png,data\exports_qgis\lidar\site03_neg04_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_neg05,site03,neg,non_archeologique,data\exports_qgis\rgb\site03_neg05.png,data\exports_qgis\lidar\site03_neg05_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_neg06,site03,neg,non_archeologique,data\exports_qgis\rgb\site03_neg06.png,data\exports_qgis\lidar\site03_neg06_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_patch01,site03,patch,archeologique,data\exports_qgis\rgb\site03_patch01.png,data\exports_qgis\lidar\site03_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_patch03,site03,patch,archeologique,data\exports_qgis\rgb\site03_patch03.png,data\exports_qgis\lidar\site03_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_patch04,site03,patch,archeologique,data\exports_qgis\rgb\site03_patch04.png,data\exports_qgis\lidar\site03_patch04_lidar.png,3507,2480,3507,2480,True,True,ok
+site03_tres_large,site03,tres_large,archeologique,data\exports_qgis\rgb\site03_tres_large.png,data\exports_qgis\lidar\site03_tres_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_large,site04,large,archeologique,data\exports_qgis\rgb\site04_large.png,data\exports_qgis\lidar\site04_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_neg01,site04,neg,non_archeologique,data\exports_qgis\rgb\site04_neg01.png,data\exports_qgis\lidar\site04_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_neg02,site04,neg,non_archeologique,data\exports_qgis\rgb\site04_neg02.png,data\exports_qgis\lidar\site04_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_neg03,site04,neg,non_archeologique,data\exports_qgis\rgb\site04_neg03.png,data\exports_qgis\lidar\site04_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_neg04,site04,neg,non_archeologique,data\exports_qgis\rgb\site04_neg04.png,data\exports_qgis\lidar\site04_neg04_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_neg05,site04,neg,non_archeologique,data\exports_qgis\rgb\site04_neg05.png,data\exports_qgis\lidar\site04_neg05_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_neg06,site04,neg,non_archeologique,data\exports_qgis\rgb\site04_neg06.png,data\exports_qgis\lidar\site04_neg06_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_patch01,site04,patch,archeologique,data\exports_qgis\rgb\site04_patch01.png,data\exports_qgis\lidar\site04_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_patch02,site04,patch,archeologique,data\exports_qgis\rgb\site04_patch02.png,data\exports_qgis\lidar\site04_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_patch03,site04,patch,archeologique,data\exports_qgis\rgb\site04_patch03.png,data\exports_qgis\lidar\site04_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_patch04,site04,patch,archeologique,data\exports_qgis\rgb\site04_patch04.png,data\exports_qgis\lidar\site04_patch04_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_patch05,site04,patch,archeologique,data\exports_qgis\rgb\site04_patch05.png,data\exports_qgis\lidar\site04_patch05_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_patch06,site04,patch,archeologique,data\exports_qgis\rgb\site04_patch06.png,data\exports_qgis\lidar\site04_patch06_lidar.png,3507,2480,3507,2480,True,True,ok
+site04_tres_large,site04,tres_large,archeologique,data\exports_qgis\rgb\site04_tres_large.png,data\exports_qgis\lidar\site04_tres_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_large,site05,large,archeologique,data\exports_qgis\rgb\site05_large.png,data\exports_qgis\lidar\site05_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_neg01,site05,neg,non_archeologique,data\exports_qgis\rgb\site05_neg01.png,data\exports_qgis\lidar\site05_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_neg02,site05,neg,non_archeologique,data\exports_qgis\rgb\site05_neg02.png,data\exports_qgis\lidar\site05_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_neg03,site05,neg,non_archeologique,data\exports_qgis\rgb\site05_neg03.png,data\exports_qgis\lidar\site05_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_neg04,site05,neg,non_archeologique,data\exports_qgis\rgb\site05_neg04.png,data\exports_qgis\lidar\site05_neg04_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_neg05,site05,neg,non_archeologique,data\exports_qgis\rgb\site05_neg05.png,data\exports_qgis\lidar\site05_neg05_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_patch01,site05,patch,archeologique,data\exports_qgis\rgb\site05_patch01.png,data\exports_qgis\lidar\site05_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_patch02,site05,patch,archeologique,data\exports_qgis\rgb\site05_patch02.png,data\exports_qgis\lidar\site05_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_patch03,site05,patch,archeologique,data\exports_qgis\rgb\site05_patch03.png,data\exports_qgis\lidar\site05_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_patch04,site05,patch,archeologique,data\exports_qgis\rgb\site05_patch04.png,data\exports_qgis\lidar\site05_patch04_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_patch05,site05,patch,archeologique,data\exports_qgis\rgb\site05_patch05.png,data\exports_qgis\lidar\site05_patch05_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_patch06,site05,patch,archeologique,data\exports_qgis\rgb\site05_patch06.png,data\exports_qgis\lidar\site05_patch06_lidar.png,3507,2480,3507,2480,True,True,ok
+site05_tres_large,site05,tres_large,archeologique,data\exports_qgis\rgb\site05_tres_large.png,data\exports_qgis\lidar\site05_tres_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_large,site06,large,archeologique,data\exports_qgis\rgb\site06_large.png,data\exports_qgis\lidar\site06_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_neg01,site06,neg,non_archeologique,data\exports_qgis\rgb\site06_neg01.png,data\exports_qgis\lidar\site06_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_neg02,site06,neg,non_archeologique,data\exports_qgis\rgb\site06_neg02.png,data\exports_qgis\lidar\site06_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_neg03,site06,neg,non_archeologique,data\exports_qgis\rgb\site06_neg03.png,data\exports_qgis\lidar\site06_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_neg04,site06,neg,non_archeologique,data\exports_qgis\rgb\site06_neg04.png,data\exports_qgis\lidar\site06_neg04_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_neg05,site06,neg,non_archeologique,data\exports_qgis\rgb\site06_neg05.png,data\exports_qgis\lidar\site06_neg05_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_neg06,site06,neg,non_archeologique,data\exports_qgis\rgb\site06_neg06.png,data\exports_qgis\lidar\site06_neg06_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_patch01,site06,patch,archeologique,data\exports_qgis\rgb\site06_patch01.png,data\exports_qgis\lidar\site06_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_patch02,site06,patch,archeologique,data\exports_qgis\rgb\site06_patch02.png,data\exports_qgis\lidar\site06_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_patch03,site06,patch,archeologique,data\exports_qgis\rgb\site06_patch03.png,data\exports_qgis\lidar\site06_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site06_tres_large,site06,tres_large,archeologique,data\exports_qgis\rgb\site06_tres_large.png,data\exports_qgis\lidar\site06_tres_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site07_large,site07,large,archeologique,data\exports_qgis\rgb\site07_large.png,data\exports_qgis\lidar\site07_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site07_neg01,site07,neg,non_archeologique,data\exports_qgis\rgb\site07_neg01.png,data\exports_qgis\lidar\site07_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site07_neg02,site07,neg,non_archeologique,data\exports_qgis\rgb\site07_neg02.png,data\exports_qgis\lidar\site07_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site07_patch01,site07,patch,archeologique,data\exports_qgis\rgb\site07_patch01.png,data\exports_qgis\lidar\site07_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site07_patch02,site07,patch,archeologique,data\exports_qgis\rgb\site07_patch02.png,data\exports_qgis\lidar\site07_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site08_large,site08,large,archeologique,data\exports_qgis\rgb\site08_large.png,data\exports_qgis\lidar\site08_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site08_neg01,site08,neg,non_archeologique,data\exports_qgis\rgb\site08_neg01.png,data\exports_qgis\lidar\site08_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site08_neg02,site08,neg,non_archeologique,data\exports_qgis\rgb\site08_neg02.png,data\exports_qgis\lidar\site08_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site08_neg03,site08,neg,non_archeologique,data\exports_qgis\rgb\site08_neg03.png,data\exports_qgis\lidar\site08_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site08_patch01,site08,patch,archeologique,data\exports_qgis\rgb\site08_patch01.png,data\exports_qgis\lidar\site08_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site08_patch02,site08,patch,archeologique,data\exports_qgis\rgb\site08_patch02.png,data\exports_qgis\lidar\site08_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site09_patch01,site09,patch,archeologique,data\exports_qgis\rgb\site09_patch01.png,data\exports_qgis\lidar\site09_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site09_patch02,site09,patch,archeologique,data\exports_qgis\rgb\site09_patch02.png,data\exports_qgis\lidar\site09_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site09_patch03,site09,patch,archeologique,data\exports_qgis\rgb\site09_patch03.png,data\exports_qgis\lidar\site09_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site09_patch04,site09,patch,archeologique,data\exports_qgis\rgb\site09_patch04.png,data\exports_qgis\lidar\site09_patch04_lidar.png,3507,2480,3507,2480,True,True,ok
+site10_large,site10,large,archeologique,data\exports_qgis\rgb\site10_large.png,data\exports_qgis\lidar\site10_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site10_neg01,site10,neg,non_archeologique,data\exports_qgis\rgb\site10_neg01.png,data\exports_qgis\lidar\site10_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site10_neg02,site10,neg,non_archeologique,data\exports_qgis\rgb\site10_neg02.png,data\exports_qgis\lidar\site10_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site10_patch01,site10,patch,archeologique,data\exports_qgis\rgb\site10_patch01.png,data\exports_qgis\lidar\site10_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site10_patch02,site10,patch,archeologique,data\exports_qgis\rgb\site10_patch02.png,data\exports_qgis\lidar\site10_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site11_large,site11,large,archeologique,data\exports_qgis\rgb\site11_large.png,data\exports_qgis\lidar\site11_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site11_patch01,site11,patch,archeologique,data\exports_qgis\rgb\site11_patch01.png,data\exports_qgis\lidar\site11_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site11_patch02,site11,patch,archeologique,data\exports_qgis\rgb\site11_patch02.png,data\exports_qgis\lidar\site11_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site12_large,site12,large,archeologique,data\exports_qgis\rgb\site12_large.png,data\exports_qgis\lidar\site12_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site12_neg01,site12,neg,non_archeologique,data\exports_qgis\rgb\site12_neg01.png,data\exports_qgis\lidar\site12_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site12_neg02,site12,neg,non_archeologique,data\exports_qgis\rgb\site12_neg02.png,data\exports_qgis\lidar\site12_neg02_lidar.png,3507,2480,3507,2480,True,True,ok
+site12_patch01,site12,patch,archeologique,data\exports_qgis\rgb\site12_patch01.png,data\exports_qgis\lidar\site12_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site12_patch02,site12,patch,archeologique,data\exports_qgis\rgb\site12_patch02.png,data\exports_qgis\lidar\site12_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site13_large,site13,large,archeologique,data\exports_qgis\rgb\site13_large.png,data\exports_qgis\lidar\site13_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site13_neg01,site13,neg,non_archeologique,data\exports_qgis\rgb\site13_neg01.png,data\exports_qgis\lidar\site13_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site13_patch01,site13,patch,archeologique,data\exports_qgis\rgb\site13_patch01.png,data\exports_qgis\lidar\site13_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site13_patch02,site13,patch,archeologique,data\exports_qgis\rgb\site13_patch02.png,data\exports_qgis\lidar\site13_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site14_large,site14,large,archeologique,data\exports_qgis\rgb\site14_large.png,data\exports_qgis\lidar\site14_large_lidar.png,3507,2480,3507,2480,True,True,ok
+site14_neg01,site14,neg,non_archeologique,data\exports_qgis\rgb\site14_neg01.png,data\exports_qgis\lidar\site14_neg01_lidar.png,3507,2480,3507,2480,True,True,ok
+site14_patch01,site14,patch,archeologique,data\exports_qgis\rgb\site14_patch01.png,data\exports_qgis\lidar\site14_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site14_patch02,site14,patch,archeologique,data\exports_qgis\rgb\site14_patch02.png,data\exports_qgis\lidar\site14_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site14_patch03,site14,patch,archeologique,data\exports_qgis\rgb\site14_patch03.png,data\exports_qgis\lidar\site14_patch03_lidar.png,3507,2480,3507,2480,True,True,ok
+site15_neg01,site15,neg,non_archeologique,data\exports_qgis\rgb\site15_neg01.png,data\exports_qgis\lidar\site15_neg01_lidar.png,2641,2480,2690,2480,True,True,size_mismatch
+site15_neg02,site15,neg,non_archeologique,data\exports_qgis\rgb\site15_neg02.png,data\exports_qgis\lidar\site15_neg02_lidar.png,2988,2480,2882,2480,True,True,size_mismatch
+site15_neg03,site15,neg,non_archeologique,data\exports_qgis\rgb\site15_neg03.png,data\exports_qgis\lidar\site15_neg03_lidar.png,3507,2480,3507,2480,True,True,ok
+site15_patch01,site15,patch,archeologique,data\exports_qgis\rgb\site15_patch01.png,data\exports_qgis\lidar\site15_patch01_lidar.png,3507,2480,3507,2480,True,True,ok
+site15_patch02,site15,patch,archeologique,data\exports_qgis\rgb\site15_patch02.png,data\exports_qgis\lidar\site15_patch02_lidar.png,3507,2480,3507,2480,True,True,ok
+site15_patch03,site15,patch,archeologique,data\exports_qgis\rgb\site15_patch03.png,data\exports_qgis\lidar\site15_patch03_lidar.png,3507,2480,3507,2480,True,True,ok

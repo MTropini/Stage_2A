@@ -109,6 +109,8 @@ def _list_images(folder: Path) -> list[Path]:
 
 
 def _pairing_key(stem: str) -> str:
+    if stem.endswith("_lidar"):
+        stem = stem[: -len("_lidar")]
     return stem.replace("_lidar_", "_")
 
 
