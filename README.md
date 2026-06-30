@@ -163,6 +163,108 @@ Cette premiere methode est une baseline classique RGB. Pour un pipeline
 scientifique plus robuste, on ajoutera ensuite des donnees georeferencees,
 des masques eau/terre de reference et des modeles de segmentation comme U-Net.
 
+## Segmentation supervisee du trait de cote
+
+Pour avancer en parallele de la classification archeologique, on peut aussi
+entrainer un premier modele supervise eau/terre a partir de masques annotes :
+
+```text
+data/coastline/training/
+  images/
+    olbia_01.png
+  masks/
+    olbia_01.png
+```
+
+Les noms de base doivent correspondre entre image et masque. Dans les masques :
+
+- noir = terre ;
+- blanc = eau.
+
+Puis lance :
+
+```bash
+python scripts/train_coastline_rf.py
+```
+
+Le modele Random Forest pixel par pixel est sauvegarde dans :
+
+```text
+models/random_forest_coastline.pkl
+```
+
+Pour predire le masque eau/terre et extraire le trait de cote sur les images de
+`data/coastline/raw/` :
+
+```bash
+python scripts/predict_coastline_rf.py
+```
+
+Le script cree dans `data/coastline/processed_rf/` :
+
+- un score d'eau predit ;
+- un masque eau/terre ;
+- un masque du trait de cote ;
+- une superposition du trait de cote sur l'image.
+
+## Comparaison temporelle du trait de cote
+
+Pour comparer plusieurs annees, nomme les orthophotos avec leur annee :
+
+```text
+data/coastline/raw/
+  2013.png
+  2015.png
+  2019.png
+  2025.png
+  2026.png
+```
+
+Detecte d'abord le trait de cote :
+
+```bash
+python scripts/segment_coastline.py
+```
+
+Puis compare les masques de trait de cote detectes :
+
+```bash
+python scripts/compare_coastline_years.py --mask-dir data/coastline/processed_orthophoto --max-points 2000
+```
+
+Le script genere :
+
+```text
+data/coastline/change/coastline_change_summary.csv
+```
+
+Les distances sont exprimees en unites cartographiques si les images ont un
+fichier world associe (`.pgw`, `.wld`, `.pngw`, etc.). Sinon elles sont exprimees
+en pixels. Cette comparaison mesure l'ecart spatial entre les traits ; pour
+distinguer explicitement recul et avancee du littoral, on ajoutera ensuite des
+transects perpendiculaires a la cote.
+
+## Donnees orthophoto pour le littoral
+
+Les orthophotos multi-dates sont organisees dans la structure suivante :
+
+```text
+data/coastline/
+  orthophoto/
+    2013/
+    2015/
+    2019/
+    2025/
+    2026/
+  metadata/
+    coastline_sources.csv
+    coastline_pairs.csv
+```
+
+Le document `COASTLINE_MULTIMODAL_DATA.md` decrit l'organisation actuelle en
+orthophoto seule. Le LiDAR pourra etre ajoute plus tard si les donnees deviennent
+disponibles.
+
 ## Verification des exports QGIS
 
 Pour verifier les exports RGB/LiDAR avant entrainement :

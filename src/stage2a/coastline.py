@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from collections import deque
 
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageFilter
 
 
 @dataclass(frozen=True)
@@ -42,6 +42,60 @@ def segment_coastline_rgb(
         coastline_mask=coastline_mask,
         threshold=float(threshold),
     )
+
+
+def predict_coastline_rf(
+    image: Image.Image,
+    model,
+    keep_border_water: bool = True,
+) -> CoastlineResult:
+    """Predict water/land with a fitted pixel classifier and extract the coastline."""
+    rgb_image = image.convert("RGB")
+    width, height = rgb_image.size
+    features = create_coastline_pixel_features(rgb_image)
+
+    if hasattr(model, "predict_proba"):
+        water_score = model.predict_proba(features)[:, 1].reshape(height, width)
+        water_mask = water_score >= 0.5
+    else:
+        water_mask = model.predict(features).reshape(height, width).astype(bool)
+        water_score = water_mask.astype(np.float32)
+
+    if keep_border_water:
+        water_mask = border_connected_component(water_mask)
+
+    coastline_mask = mask_boundary(water_mask)
+    return CoastlineResult(
+        water_score=water_score.astype(np.float32),
+        water_mask=water_mask,
+        coastline_mask=coastline_mask,
+        threshold=0.5,
+    )
+
+
+def create_coastline_pixel_features(image: Image.Image) -> np.ndarray:
+    """Create per-pixel RGB and texture features for supervised coastline models."""
+    rgb = np.asarray(image.convert("RGB"), dtype=np.float32) / 255.0
+    gray = np.mean(rgb, axis=2)
+    score = water_index_rgb(rgb)
+
+    gray_mean = _box_mean(gray, radius=3)
+    gray_std = _box_std(gray, gray_mean, radius=3)
+    score_mean = _box_mean(score, radius=3)
+    score_std = _box_std(score, score_mean, radius=3)
+
+    features = np.dstack(
+        [
+            rgb,
+            gray,
+            score,
+            gray_mean,
+            gray_std,
+            score_mean,
+            score_std,
+        ]
+    )
+    return features.reshape(-1, features.shape[-1]).astype(np.float32)
 
 
 def water_index_rgb(rgb: np.ndarray) -> np.ndarray:
@@ -212,3 +266,16 @@ def normalize01(values: np.ndarray) -> np.ndarray:
 
 def to_uint8(values: np.ndarray) -> np.ndarray:
     return np.clip(normalize01(values) * 255, 0, 255).astype(np.uint8)
+
+
+def _box_mean(values: np.ndarray, radius: int) -> np.ndarray:
+    image = Image.fromarray(np.clip(values * 255, 0, 255).astype(np.uint8))
+    blurred = image.filter(ImageFilter.BoxBlur(radius))
+    return np.asarray(blurred, dtype=np.float32) / 255.0
+
+
+def _box_std(values: np.ndarray, mean: np.ndarray, radius: int) -> np.ndarray:
+    squared = np.clip(values, 0.0, 1.0) ** 2
+    squared_mean = _box_mean(squared, radius)
+    variance = np.maximum(squared_mean - mean**2, 0.0)
+    return np.sqrt(variance).astype(np.float32)
