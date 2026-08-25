@@ -1,0 +1,7 @@
+path: C:/Users/Mathieu/Documents/New project/Stage_2A/data/yolo_sites
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: site_archeologique

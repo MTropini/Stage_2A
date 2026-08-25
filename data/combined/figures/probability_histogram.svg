@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460"><rect width="100%" height="100%" fill="#ffffff"/><style>text{font-family:Arial, Helvetica, sans-serif; fill:#111827;}</style>
+<text x="380.0" y="38" font-size="24" text-anchor="middle" font-weight="700" fill="#111827">Probability histogram</text>
+<text x="380.0" y="430" font-size="14" text-anchor="middle" font-weight="700" fill="#111827">P(archeologique)</text>
+<text x="22" y="210.0" font-size="14" text-anchor="middle" font-weight="700" fill="#111827" transform="rotate(-90 22 210.0)">Count</text>
+<line x1="70" y1="350" x2="690" y2="350" stroke="#111827" stroke-width="1.5"/>
+<line x1="70" y1="70" x2="70" y2="350" stroke="#111827" stroke-width="1.5"/>
+<line x1="70" y1="280.0" x2="690" y2="280.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="70" y1="210.0" x2="690" y2="210.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="70" y1="140.0" x2="690" y2="140.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="70" y1="70.0" x2="690" y2="70.0" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="75.0" y="70.0" width="25.0" height="280.0" fill="#377eb8" opacity="0.82"/>
+<rect x="103.0" y="320.3529411764706" width="25.0" height="29.647058823529413" fill="#e41a1c" opacity="0.82"/>
+<text x="101.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.0</text>
+<rect x="137.0" y="247.88235294117646" width="25.0" height="102.11764705882354" fill="#377eb8" opacity="0.82"/>
+<rect x="165.0" y="313.7647058823529" width="25.0" height="36.23529411764706" fill="#e41a1c" opacity="0.82"/>
+<text x="163.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.1</text>
+<rect x="199.0" y="270.94117647058823" width="25.0" height="79.05882352941177" fill="#377eb8" opacity="0.82"/>
+<rect x="227.0" y="323.6470588235294" width="25.0" height="26.352941176470587" fill="#e41a1c" opacity="0.82"/>
+<text x="225.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.2</text>
+<rect x="261.0" y="294.0" width="25.0" height="56.0" fill="#377eb8" opacity="0.82"/>
+<rect x="289.0" y="330.2352941176471" width="25.0" height="19.764705882352942" fill="#e41a1c" opacity="0.82"/>
+<text x="287.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.3</text>
+<rect x="323.0" y="307.1764705882353" width="25.0" height="42.8235294117647" fill="#377eb8" opacity="0.82"/>
+<rect x="351.0" y="326.94117647058823" width="25.0" height="23.058823529411764" fill="#e41a1c" opacity="0.82"/>
+<text x="349.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.4</text>
+<rect x="385.0" y="340.11764705882354" width="25.0" height="9.882352941176471" fill="#377eb8" opacity="0.82"/>
+<rect x="413.0" y="287.4117647058824" width="25.0" height="62.588235294117645" fill="#e41a1c" opacity="0.82"/>
+<text x="411.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.5</text>
+<rect x="447.0" y="346.70588235294116" width="25.0" height="3.2941176470588234" fill="#377eb8" opacity="0.82"/>
+<rect x="475.0" y="320.3529411764706" width="25.0" height="29.647058823529413" fill="#e41a1c" opacity="0.82"/>
+<text x="473.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.6</text>
+<rect x="509.0" y="333.52941176470586" width="25.0" height="16.470588235294116" fill="#377eb8" opacity="0.82"/>
+<rect x="537.0" y="323.6470588235294" width="25.0" height="26.352941176470587" fill="#e41a1c" opacity="0.82"/>
+<text x="535.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.7</text>
+<rect x="571.0" y="340.11764705882354" width="25.0" height="9.882352941176471" fill="#377eb8" opacity="0.82"/>
+<rect x="599.0" y="280.8235294117647" width="25.0" height="69.17647058823529" fill="#e41a1c" opacity="0.82"/>
+<text x="597.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.8</text>
+<rect x="633.0" y="336.8235294117647" width="25.0" height="13.176470588235293" fill="#377eb8" opacity="0.82"/>
+<rect x="661.0" y="323.6470588235294" width="25.0" height="26.352941176470587" fill="#e41a1c" opacity="0.82"/>
+<text x="659.0" y="372" font-size="11" text-anchor="middle" font-weight="400" fill="#111827">0.9</text>
+<line x1="349.0" y1="70" x2="349.0" y2="350" stroke="#111827" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="354.0" y="88" font-size="12" text-anchor="start" font-weight="700" fill="#111827">threshold 0.45</text>
+<g transform="translate(510,78)">
+<rect x="0" y="-11" width="13" height="13" fill="#377eb8"/>
+<text x="20" y="0" font-size="12" text-anchor="start" font-weight="400" fill="#111827">non_archeologique</text>
+<rect x="0" y="11" width="13" height="13" fill="#e41a1c"/>
+<text x="20" y="22" font-size="12" text-anchor="start" font-weight="400" fill="#111827">archeologique</text>
+</g>
+</svg>

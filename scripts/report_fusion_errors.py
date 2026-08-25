@@ -75,6 +75,30 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--image-size", type=int, default=224)
     parser.add_argument("--random-state", type=int, default=42)
     parser.add_argument(
+        "--scaler",
+        choices=["standard", "robust", "normalizer", "none"],
+        default="none",
+        help="Feature scaling before logistic regression.",
+    )
+    parser.add_argument(
+        "--class-weight",
+        choices=["balanced", "none"],
+        default="none",
+        help="Class weighting for logistic regression.",
+    )
+    parser.add_argument(
+        "--c-value",
+        type=float,
+        default=0.03,
+        help="Inverse regularization strength for logistic regression.",
+    )
+    parser.add_argument(
+        "--threshold",
+        type=float,
+        default=0.45,
+        help="Decision threshold for the archaeological class.",
+    )
+    parser.add_argument(
         "--torch-cache-dir",
         type=Path,
         default=PROJECT_ROOT / "models" / "torch_cache",
@@ -92,7 +116,7 @@ def main() -> int:
         from sklearn.linear_model import LogisticRegression
         from sklearn.metrics import accuracy_score, f1_score
         from sklearn.pipeline import make_pipeline
-        from sklearn.preprocessing import StandardScaler
+        from sklearn.preprocessing import Normalizer, RobustScaler, StandardScaler
         from torch import nn
         from torch.utils.data import DataLoader
         from torchvision import models, transforms
@@ -145,13 +169,20 @@ def main() -> int:
         labels=labels,
         site_ids=site_ids,
         classifier_factory=lambda: make_pipeline(
-            StandardScaler(),
+            *(
+                [_build_scaler(args.scaler, StandardScaler, RobustScaler, Normalizer)]
+                if args.scaler != "none"
+                else []
+            ),
             LogisticRegression(
-                class_weight="balanced",
-                max_iter=2000,
+                C=args.c_value,
+                class_weight=None if args.class_weight == "none" else args.class_weight,
+                max_iter=1000,
                 random_state=args.random_state,
+                solver="liblinear",
             ),
         ),
+        threshold=args.threshold,
     )
 
     args.output_csv.parent.mkdir(parents=True, exist_ok=True)
@@ -210,6 +241,16 @@ def _build_feature_extractor(models, nn):
     return model
 
 
+def _build_scaler(name: str, StandardScaler, RobustScaler, Normalizer):
+    if name == "standard":
+        return StandardScaler()
+    if name == "robust":
+        return RobustScaler()
+    if name == "normalizer":
+        return Normalizer()
+    raise ValueError(f"Unknown scaler: {name}")
+
+
 def _features_for_paths(
     paths: list[Path],
     labels: list[int],
@@ -235,6 +276,7 @@ def _leave_one_site_out_predictions(
     labels: np.ndarray,
     site_ids: np.ndarray,
     classifier_factory,
+    threshold: float,
 ) -> list[dict[str, str]]:
     report_rows: list[dict[str, str]] = []
 
@@ -252,7 +294,7 @@ def _leave_one_site_out_predictions(
         for local_index, record_index in enumerate(test_indices):
             record = records[int(record_index)]
             probability_arch = float(probabilities[local_index, class_to_index[1]])
-            prediction = 1 if probability_arch >= 0.5 else 0
+            prediction = 1 if probability_arch >= threshold else 0
             true_label = int(labels[record_index])
             error_type = _error_type(true_label, prediction)
 

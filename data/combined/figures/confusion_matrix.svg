@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="430" viewBox="0 0 520 430"><rect width="100%" height="100%" fill="#ffffff"/><style>text{font-family:Arial, Helvetica, sans-serif; fill:#111827;}</style>
+<text x="260" y="38" font-size="24" text-anchor="middle" font-weight="700" fill="#111827">Confusion matrix</text>
+<text x="60" y="245" font-size="15" text-anchor="middle" font-weight="700" fill="#111827" transform="rotate(-90 60 245)">True label</text>
+<text x="320" y="76" font-size="15" text-anchor="middle" font-weight="700" fill="#111827">Predicted label</text>
+<text x="255.0" y="82" font-size="13" text-anchor="middle" font-weight="400" fill="#111827">non_archeologique</text>
+<text x="385.0" y="82" font-size="13" text-anchor="middle" font-weight="400" fill="#111827">archeologique</text>
+<text x="172" y="165.0" font-size="13" text-anchor="end" font-weight="400" fill="#111827">non_archeologique</text>
+<text x="172" y="295.0" font-size="13" text-anchor="end" font-weight="400" fill="#111827">archeologique</text>
+<rect x="190" y="100" width="130" height="130" fill="rgb(110,137,205)" stroke="#ffffff" stroke-width="3"/>
+<text x="255.0" y="154" font-size="32" text-anchor="middle" font-weight="700" fill="#ffffff">164</text>
+<text x="255.0" y="184" font-size="15" text-anchor="middle" font-weight="400" fill="#ffffff">56.2%</text>
+<rect x="320" y="100" width="130" height="130" fill="rgb(207,218,241)" stroke="#ffffff" stroke-width="3"/>
+<text x="385.0" y="154" font-size="32" text-anchor="middle" font-weight="700" fill="#ffffff">22</text>
+<text x="385.0" y="184" font-size="15" text-anchor="middle" font-weight="400" fill="#ffffff">7.5%</text>
+<rect x="190" y="230" width="130" height="130" fill="rgb(197,210,237)" stroke="#ffffff" stroke-width="3"/>
+<text x="255.0" y="284" font-size="32" text-anchor="middle" font-weight="700" fill="#ffffff">36</text>
+<text x="255.0" y="314" font-size="15" text-anchor="middle" font-weight="400" fill="#ffffff">12.3%</text>
+<rect x="320" y="230" width="130" height="130" fill="rgb(174,191,229)" stroke="#ffffff" stroke-width="3"/>
+<text x="385.0" y="284" font-size="32" text-anchor="middle" font-weight="700" fill="#ffffff">70</text>
+<text x="385.0" y="314" font-size="15" text-anchor="middle" font-weight="400" fill="#ffffff">24.0%</text>
+<text x="320" y="385" font-size="16" text-anchor="middle" font-weight="700" fill="#111827">Accuracy: 0.801</text>
+</svg>

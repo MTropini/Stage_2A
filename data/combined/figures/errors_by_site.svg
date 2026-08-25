@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="480" viewBox="0 0 780 480"><rect width="100%" height="100%" fill="#ffffff"/><style>text{font-family:Arial, Helvetica, sans-serif; fill:#111827;}</style>
+<text x="390.0" y="38" font-size="24" text-anchor="middle" font-weight="700" fill="#111827">Errors by site</text>
+<text x="390.0" y="455" font-size="14" text-anchor="middle" font-weight="700" fill="#111827">Site</text>
+<text x="22" y="220.0" font-size="14" text-anchor="middle" font-weight="700" fill="#111827" transform="rotate(-90 22 220.0)">Errors</text>
+<line x1="70" y1="370" x2="720" y2="370" stroke="#111827" stroke-width="1.5"/>
+<line x1="70" y1="70" x2="70" y2="370" stroke="#111827" stroke-width="1.5"/>
+<line x1="70" y1="295.0" x2="720" y2="295.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="70" y1="220.0" x2="720" y2="220.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="70" y1="145.0" x2="720" y2="145.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="70" y1="70.0" x2="720" y2="70.0" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="77.22222222222223" y="340.0" width="12.444444444444445" height="30.0" fill="#e41a1c" opacity="0.88"/>
+<text x="83.44444444444446" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<rect x="91.66666666666667" y="250.0" width="12.444444444444445" height="120.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="97.8888888888889" y="245.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">4</text>
+<text x="91.66666666666667" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 91.66666666666667 390)">site01</text>
+<rect x="120.55555555555556" y="340.0" width="12.444444444444445" height="30.0" fill="#e41a1c" opacity="0.88"/>
+<text x="126.77777777777779" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<rect x="135.0" y="70.0" width="12.444444444444445" height="300.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="141.22222222222223" y="65.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">10</text>
+<text x="135.0" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 135.0 390)">site02</text>
+<rect x="163.88888888888889" y="250.0" width="12.444444444444445" height="120.0" fill="#e41a1c" opacity="0.88"/>
+<text x="170.11111111111111" y="245.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">4</text>
+<rect x="178.33333333333334" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="178.33333333333334" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 178.33333333333334 390)">site03</text>
+<rect x="207.2222222222222" y="310.0" width="12.444444444444445" height="60.0" fill="#e41a1c" opacity="0.88"/>
+<text x="213.44444444444443" y="305.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">2</text>
+<rect x="221.66666666666666" y="340.0" width="12.444444444444445" height="30.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="227.88888888888889" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<text x="221.66666666666666" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 221.66666666666666 390)">site04</text>
+<rect x="250.55555555555554" y="340.0" width="12.444444444444445" height="30.0" fill="#e41a1c" opacity="0.88"/>
+<text x="256.77777777777777" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<rect x="265.0" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="265.0" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 265.0 390)">site05</text>
+<rect x="293.8888888888889" y="220.0" width="12.444444444444445" height="150.0" fill="#e41a1c" opacity="0.88"/>
+<text x="300.11111111111114" y="215.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">5</text>
+<rect x="308.33333333333337" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="308.33333333333337" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 308.33333333333337 390)">site06</text>
+<rect x="337.22222222222223" y="340.0" width="12.444444444444445" height="30.0" fill="#e41a1c" opacity="0.88"/>
+<text x="343.44444444444446" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<rect x="351.6666666666667" y="340.0" width="12.444444444444445" height="30.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="357.8888888888889" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<text x="351.6666666666667" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 351.6666666666667 390)">site07</text>
+<rect x="380.5555555555556" y="220.0" width="12.444444444444445" height="150.0" fill="#e41a1c" opacity="0.88"/>
+<text x="386.7777777777778" y="215.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">5</text>
+<rect x="395.00000000000006" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="395.00000000000006" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 395.00000000000006 390)">site08</text>
+<rect x="423.8888888888889" y="220.0" width="12.444444444444445" height="150.0" fill="#e41a1c" opacity="0.88"/>
+<text x="430.11111111111114" y="215.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">5</text>
+<rect x="438.33333333333337" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="438.33333333333337" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 438.33333333333337 390)">site09</text>
+<rect x="467.22222222222223" y="340.0" width="12.444444444444445" height="30.0" fill="#e41a1c" opacity="0.88"/>
+<text x="473.44444444444446" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<rect x="481.6666666666667" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="481.6666666666667" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 481.6666666666667 390)">site10</text>
+<rect x="510.55555555555554" y="340.0" width="12.444444444444445" height="30.0" fill="#e41a1c" opacity="0.88"/>
+<text x="516.7777777777777" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<rect x="525.0" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="525.0" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 525.0 390)">site11</text>
+<rect x="553.8888888888889" y="250.0" width="12.444444444444445" height="120.0" fill="#e41a1c" opacity="0.88"/>
+<text x="560.1111111111111" y="245.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">4</text>
+<rect x="568.3333333333334" y="250.0" width="12.444444444444445" height="120.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="574.5555555555555" y="245.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">4</text>
+<text x="568.3333333333334" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 568.3333333333334 390)">site12</text>
+<rect x="597.2222222222222" y="370.0" width="12.444444444444445" height="0.0" fill="#e41a1c" opacity="0.88"/>
+<rect x="611.6666666666666" y="340.0" width="12.444444444444445" height="30.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="617.8888888888888" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<text x="611.6666666666666" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 611.6666666666666 390)">site13</text>
+<rect x="640.5555555555555" y="370.0" width="12.444444444444445" height="0.0" fill="#e41a1c" opacity="0.88"/>
+<rect x="655.0" y="340.0" width="12.444444444444445" height="30.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="661.2222222222222" y="335.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">1</text>
+<text x="655.0" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 655.0 390)">site14</text>
+<rect x="683.8888888888889" y="220.0" width="12.444444444444445" height="150.0" fill="#e41a1c" opacity="0.88"/>
+<text x="690.1111111111111" y="215.0" font-size="10" text-anchor="middle" font-weight="400" fill="#111827">5</text>
+<rect x="698.3333333333334" y="370.0" width="12.444444444444445" height="0.0" fill="#ff9f1c" opacity="0.88"/>
+<text x="698.3333333333334" y="390" font-size="10" text-anchor="middle" font-weight="400" fill="#111827" transform="rotate(-35 698.3333333333334 390)">site15</text>
+<g transform="translate(545,78)">
+<rect x="0" y="-11" width="13" height="13" fill="#e41a1c"/>
+<text x="20" y="0" font-size="12" text-anchor="start" font-weight="400" fill="#111827">False negatives</text>
+<rect x="0" y="11" width="13" height="13" fill="#ff9f1c"/>
+<text x="20" y="22" font-size="12" text-anchor="start" font-weight="400" fill="#111827">False positives</text>
+</g>
+</svg>
